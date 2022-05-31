@@ -11,7 +11,7 @@
 	- If 30 is given => there're 32 - 30 = 2 '0s'
 	- Therefore, the mask is 11111111 ... 11111100
 - 127.0.0 = localhost
-
+- As long as you follow the Mask, the IPs can have "any" value
 ### My calculations:
 
 128    64    32    16    8    4    2    1    |  Number
