@@ -1,6 +1,6 @@
 # Level 4:
 
-- mac = /23 => 255.255.254.0
+- mac = /23 => 32 - 23 = 9 => 1 + 8 => 255.255.254.0
 - A's IP = 70.9.118.132 => now we have the ips ideas
 - Example: IPs from 132-134 work fine
 
