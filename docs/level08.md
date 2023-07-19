@@ -22,7 +22,7 @@ That makes R21 also be in the 4th network
 - R21: 142.182.95.61/28
 Now, we can route all trafic from I to R21, while the rest goes to I:
 - Router R1:
-	- `default => 142.182.95.61`
+	- `default => 142.182.95.61` (all to R2)
 	- `0.0.0.0/0 => >163.33.250.1`
 - Router R2: We want all traffic forwarded to R13, so use default.
 Just take 2 remaining networks and apply them to the remaining.
